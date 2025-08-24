@@ -30,6 +30,8 @@ csv_list_temp = csv_str.splitlines()
 
 csv_list = []
 
+
+
 # 코드를 잘못짯다.
 # 숫자로 인덱싱 할 방법을 떠올리지 못하겠다.
 # for i in csv_list_temp[1:-1]:
@@ -44,11 +46,11 @@ for i in csv_list_temp[1:]:
     csv_list.append(i.split(','))
 
 
-# print("csv_list 를 출력합니다.")
-# for i in csv_list:
-#     print(i)
+print("csv_list 를 출력합니다.")
+for i in csv_list:
+    print(i)
 
-
+print("리스트 출력 끝\n\n\n")
 
 # csv_list_sorted = []
 # for i in csv_list:

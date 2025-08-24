@@ -19,9 +19,9 @@ except:
     exit()
 
         # 한줄씩 취합한 데이터(log_list)를 출력한다.
-print('그대로 출력함')
-for i in log_list:
-    print(i)
+# print('그대로 출력함')
+# for i in log_list:
+#     print(i)
         
 print('\n시간의 역순으로 출력함\n')
 for i in reversed(log_list):
