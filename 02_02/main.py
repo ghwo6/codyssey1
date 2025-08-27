@@ -28,6 +28,10 @@ except:
     quit()
 
 def caesar_cipher_decode(target_text):
-    
-
+    for i in range(26):
+        result = ''
+        for char in target_text:
+            if char in chars:
+                char_index = chars.find(char)
+                result += chars[(char_index - i) % 26]
 print(password)
