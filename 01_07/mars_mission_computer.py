@@ -52,7 +52,6 @@ class DummySensor:
                             'mars_base_internal_co2': 0,
                             'mars_base_internal_oxygen': 0}
     def set_env(self):
-
         self.env_values['mars_base_internal_temperature'] = round(random.random()*22+18,2)
         self.env_values['mars_base_external_temperature'] = round(random.random()*21,2)
         self.env_values['mars_base_internal_humidity'] = round(random.random()*10+50,2)
@@ -89,13 +88,13 @@ class MissionComputer:
             "mars_base_internal_co2": 0.0,
             "mars_base_internal_oxygen": 0.0,
         }
+        
         self.ds = DummySensor()
         self.ds.set_env()
 
     def get_sensor_data(self):
         import time
         import json
-
         
 
         while True:

@@ -1,1 +1,1 @@
-{'mars_base_internal_temperature': 30.41, 'mars_base_external_temperature': 18.38, 'mars_base_internal_humidity': 55.34, 'mars_base_external_illuminance': 569.3894722488668, 'mars_base_internal_co2': 0.02, 'mars_base_internal_oxygen': 5.32}
+{'mars_base_internal_temperature': 18.68, 'mars_base_external_temperature': 9.07, 'mars_base_internal_humidity': 58.52, 'mars_base_external_illuminance': 562.3954271100419, 'mars_base_internal_co2': 0.04, 'mars_base_internal_oxygen': 6.76}

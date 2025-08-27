@@ -87,7 +87,14 @@ for n in name:
 print(mean_parts)
 
 output_filename = os.path.join('01_05', 'parts_to_work_on.csv')
+
 try:
     savefile = open(output_filename,'wt',encoding='utf-8')
 except:
     print('파일이 열리지 않습니다.')
+
+for n in name:
+    if mean_parts[n] < 50:
+        savefile.write(f'{n},{mean_parts[n]}\n')
+
+savefile.close()

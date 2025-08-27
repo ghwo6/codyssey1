@@ -100,7 +100,7 @@ def unlock_zip_parallel(zip_file_name='02_01/emergency_storage_key.zip'):
             print("=" * 40)
             
             try:
-                with open('password.txt', 'w') as f:
+                with open('02_01password.txt', 'w') as f:
                     f.write(password)
                 print("Password successfully saved to 'password.txt'.")
             except IOError as e:

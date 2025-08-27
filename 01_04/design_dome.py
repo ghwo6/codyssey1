@@ -107,8 +107,8 @@ while continue_bool == True:
     
     sphere_area(diameter,material,thickness)
 
-    while 1:
-        print(1)
-        while 1:
-            print(2)
-            break
+    # while 1:
+    #     print(1)
+    #     while 1:
+    #         print(2)
+    #         break
