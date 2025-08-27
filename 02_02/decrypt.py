@@ -1,4 +1,3 @@
-
 import os
 
 PASSWORD_FILE = "02_01/password.txt"
